@@ -64,3 +64,5 @@ root.mainloop()
 with open('Saved_Apps.txt' ,'w') as f:
     for app in apps:
         f.write(app + ',')
+		
+print("New changes in code git test")
