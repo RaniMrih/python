@@ -1,0 +1,84 @@
+Script started on Mon 07 Sep 2020 04:21:06 PM CDT
+
+[34mgoing to run steps : [0m['1154', '1155', '1156', '1157', '1158', '1159', '1160', '1162']
+
+[92m::::::::::::::::::::::::::::::::::::::::::::::: Running DMI TC_2_1 Step 1154 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m
+[92m::::::::::::::::::::::::::::::::::::::::::: This Script will run all TC_2_1 press ctrl+c to stop :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m
+
+
+PWD = /usr/g/ctuser/EQ_Automation/DMI-Acq4D_ListMode_Workflow_DOC1758729/TC_2_1
+()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 53, in <module>
+    result = m.execute(TC_Number, STEP,G)
+  File "/usr/g/ctuser/EQ_Automation/DMI-Acq4D_ListMode_Workflow_DOC1758729/TC_2_1/Acq4D_1154.py", line 12, in execute
+    User_Input(tc , G.TC_WD)
+  File "/usr/g/ctuser/EQ_Automation/auto_lib/generic_funcs.py", line 206, in User_Input
+    print "Enter Sinograms path directory from" + BLUE + " section "+TC+" : " +RESET + SinosDirectory
+UnboundLocalError: local variable 'SinosDirectory' referenced before assignment
+[31m                                                        ---- Step Acq4D_1154 Failed ----[0m
+
+
+[92m::::::::::::::::::::::::::::::::::::::::::::::: Running DMI TC_2_1 Step 1155 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[0m
+
+
+Creating S2.1Sino.txt file ...
+^CTraceback (most recent call last):
+  File "/usr/PET/release/dragon/scripts/linux2/rdfTeller", line 31, in <module>
+    for l in os.popen(cmd).readlines():
+KeyboardInterrupt
+Creating S2.1SinoHdrs.txt file ...
+Creating S2.1ListHdrs.txt file ...
+
+[34mIs the S2.1Sino.txt, S2.1SinoHdrs.txt &
+S2.1ListHdrs.txt files were produced ?[0m
+[92m[X] Yes[0m
+[ ] No
+
+[92m                                                        ---- Step Acq4D_1155 Passed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1156 Failed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1157 Failed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1158 Failed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1159 Failed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1160 Failed ----[0m
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+[31m                                                        ---- Step Acq4D_1162 Failed ----[0m
+
+
+[K^C^C^C^C^C^C^C^C
+Script done on Mon 07 Sep 2020 04:21:23 PM CDT

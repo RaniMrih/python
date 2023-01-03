@@ -1,0 +1,5 @@
+
+--- List File Statistics --- 
+First Time Mark: 248049 Last Time Mark: 348049 Delta Time: 100000
+Time Markers: 100001  Missing Time Marks: 0 %Loss: 0.00
+Prompts: 113749758 Delays: 0 Phys1 (Cardiac) Triggers: 0 Phys2 (Respiratory) Triggers: 101

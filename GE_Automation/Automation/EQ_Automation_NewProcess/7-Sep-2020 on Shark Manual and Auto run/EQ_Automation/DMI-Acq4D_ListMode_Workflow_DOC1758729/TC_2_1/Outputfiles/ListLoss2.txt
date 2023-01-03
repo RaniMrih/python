@@ -1,0 +1,34 @@
+16:07:19.020 Main.Info  ListTool.cpp(1563) in processListLoss(): There is an mismatch between deadtime period and list period!
+16:07:19.020 Main.Info  ListTool.cpp(1564) in processListLoss(): Deadtime duration: 101.0 List Duration: 100.0
+Attempting to align deadtime samples and list file
+Discarding deadtime sample number 1
+List data has been aligned to deadtime sample number 2
+Prompt events lost due to alignment=85161
+Missing timemarkers detected before alignment: 0
+I/O processing statistics: 113849860.0 events in 3.900s at 29192271.8 events/sec
+
+Statistics for List file
+First Time Marker: 248049
+Last Time Marker: 348049
+Delta Time: 100000
+Time Markers: 100001
+Total Prompts: 113749758
+Maximum time difference between timemarkers: 1
+Percent missing timemarkers in list file: 0%
+
+Aligned List statistics:
+Aligned duration: 99.000000 seconds
+Maximum time difference between timemarkers: 1 millecond(s)
+Aligned Deadtime Prompt Total: 112612925 prompts. Aligned List Prompt Total: 112612815 prompts
+Average Deadtime Prompt Rate: 1137504.292929 prompts. Average List Prompt Rate: 1137503.181818 prompts
+
+Aligned List Loss statistics. (Values are difference between deadtime and list)
+Total Missing Timemarkers: 0
+Maximum list loss rate: 131
+Minimum list loss rate: -111
+Total list loss rate 110
+Average list loss rate: 1.000000
+Standard Deviation: 49.238545
+Percent list loss in aligned section: 0.000098%
+
+Output file ListLoss2.csv successfully created

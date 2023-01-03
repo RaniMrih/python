@@ -1,0 +1,64 @@
+Script started on Mon 07 Sep 2020 04:19:51 PM CDT
+
+Will run steps : ['1154', '1155', '1156', '1157', '1158', '1159', '1160', '1162']
+
+::::::::::::::::::::::::::::::::::::::::::::::: Running DMI TC_2_1 Step 1154 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::: This Script will run all TC_2_1 press ctrl+c to stop :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+PWD = /usr/g/ctuser/EQ_Automation/DMI-Acq4D_ListMode_Workflow_DOC1758729/TC_2_1
+()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 53, in <module>
+    result = m.execute(TC_Number, STEP,G)
+  File "/usr/g/ctuser/EQ_Automation/DMI-Acq4D_ListMode_Workflow_DOC1758729/TC_2_1/Acq4D_1154.py", line 12, in execute
+    User_Input(tc , G.TC_WD)
+  File "/usr/g/ctuser/EQ_Automation/auto_lib/generic_funcs.py", line 206, in User_Input
+    print "Enter Sinograms path directory from" + BLUE + " section "+TC+" : " +RESET + SinosDirectory
+UnboundLocalError: local variable 'SinosDirectory' referenced before assignment
+                                                        ---- Step Acq4D_1154 Failed ----
+
+
+::::::::::::::::::::::::::::::::::::::::::::::: Running DMI TC_2_1 Step 1155 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Creating S2.1Sino.txt file ...
+^CTraceback (most recent call last):
+  File "/usr/PET/release/dragon/scripts/linux2/rdfTeller", line 31, in <module>
+    for l in os.popen(cmd).readlines():
+KeyboardInterrupt
+Creating S2.1SinoHdrs.txt file ...
+Creating S2.1ListHdrs.txt file ...
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 53, in <module>
+    result = m.execute(TC_Number, STEP,G)
+  File "/usr/g/ctuser/EQ_Automation/DMI-Acq4D_ListMode_Workflow_DOC1758729/TC_2_1/Acq4D_1155.py", line 21, in execute
+    print_fact_prefix ("Is the S2.1Sino.txt, S2.1SinoHdrs.txt &"+'\n'+"S2.1ListHdrs.txt files were produced ?")
+  File "/usr/g/ctuser/EQ_Automation/auto_lib/generic_funcs.py", line 147, in print_fact_prefix
+    time.sleep(0.1)
+KeyboardInterrupt
+                                                        ---- Step Acq4D_1155 Failed ----
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+                                                        ---- Step Acq4D_1156 Failed ----
+
+^C()
+Traceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 38, in <module>
+    time.sleep(1)
+^CTraceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/execute_wrapper.py", line 57, in <module>
+    traceback.print_exc()
+  File "/usr/lib64/python2.6/traceback.py", line 233, in print_exc
+    print_exception(etype, value, tb, limit, file)
+  File "/usr/lib64/python2.6/traceback.py", line 127, in print_exception
+    for line in lines[:-1]:
+KeyboardInterrupt
+
+[K^C^C^C^C^C^C^C^C
+Script done on Mon 07 Sep 2020 04:20:10 PM CDT

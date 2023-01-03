@@ -1,0 +1,1 @@
+rdfTell -h efadgS -Ha -v -S /petRDFS/ATSOLOLM1/SINO0000

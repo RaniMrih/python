@@ -1,0 +1,1055 @@
+Script started on Tue 11 Aug 2020 07:29:07 PM CDT
+
+
+
+::::::::::::::::::::::::::::::::::::::::::::::: Running DMI TC_2.1 Step 1154 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::: This Script will run all TC 2.1 press ctrl+c to stop ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Enter Sinograms path directory from section 2.1 :/petRDFS/ATSOLOLM1
+Enter LIST path directory from section 2.1 :/petLists/QOTAGJYS2
+
+
+1) Scan Completed normally ?
+[ ] Yes
+[ ] No
+
+Number of Sinogram Files:
+3
+
+The name of Sinogram Files present :
+SINO0000
+SINO0001
+SINO0002
+
+Is there a 3 Sinogram Files, with filenames
+(SINO0000, SINO0001, SINO0002) ?
+[X] Yes
+[ ] No
+
+Number of List Files:
+3
+The name of the List Files found is :
+LIST0000.BLF
+LIST0001.BLF
+LIST0002.BLF
+
+Is there a 3 List Files, with filenames
+(LIST0000.BLF, LIST0001.BLF, LISTO0002.BLF) ?
+[X] Yes
+[ ] No
+
+						       ---- Step Acq4D.1154 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1155 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Creating S2.1Sino.txt file ...
+Creating S2.1SinoHdrs.txt file ...
+Creating S2.1ListHdrs.txt file ...
+
+Is the S2.1Sino.txt, S2.1SinoHdrs.txt &
+S2.1ListHdrs.txt files were produced ?
+[X] Yes
+[ ] No
+
+							---- Step Acq4D.1155 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1156 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Is the Patient and Exam/Scan Data reported in
+Sinogram RDF file matches with the patient and
+Exam information entered in Section 2.1
+(SSVP.PAC.Acq4D.1154) ?
+[ ] Yes
+[ ] No
+NOTE: Check manually
+
+The Patient and Exam Data in the Sinogram file is:
+patientID: 1
+Operator: RA
+
+The Patient and Exam Data in the List file is:
+NA
+NA
+
+The List Files Exam Data matches the Sino Files
+Exam Data for all parameters other than
+a) Patient ID
+b) Operator
+c) Scan ID
+[ ] Yes
+[X] No
+
+Is List files' Acquisition Parameters' matches with
+the Sinogram files 'Acquisition Parameters'?
+[ ] Yes
+[X] No
+
+Is List files 'System Geometry' matches with
+the Sinogram files 'System Geometry Parameters'?
+[X] Yes
+[ ] No
+
+Is List files 'Detector Module Temperatures' matches with
+the Sinogram files 'Detector Module Temperatures'?
+[ ] Yes
+[X] No
+
+Is List files 'Detector Module Serial Nos.' matches with
+the Sinogram files 'Detector Module Serial Nos.'?
+[ ] Yes
+[X] No
+
+Is List files 'Detector Block Valid Flags' matches with
+the Sinogram files 'Detector Block Valid Flag'?
+[ ] Yes
+[X] No
+
+							---- Step Acq4D.1156 Failed ----
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1157 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1) Scan Start Time :
+Wed Feb 19 16:31:13 2020
+Frame Start Time :
+Wed Feb 19 16:31:43 2020
+Scan Start Time - Frame Start Time =
+30
+
+The Acquisition Start Time of the first
+frame is 30 second after the scan start time?
+[X] Yes
+[ ] No
+
+2) Frame Start Time (Coinc msec) in msec
+for each frame:
+Frame 1:  44319
+Frame 2:  44319
+Frame 3:  44319
+
+Creating ListOut_f0.txt, ListOut_f1.txt' ListOut_f2.txt, please wait ...
+
+3) 'First Time Mark' im msec for each
+frame:
+Frame 1: 248049
+Frame 2: 248049
+Frame 3: 248049
+
+4) The absolute difference in between the 'First Time'
+Time Mark' in the List file and the the 'Frame Start
+Time (Coinc msec)' of the sinogram file, per Frame is:
+Frame 1: -203730
+Frame 2: -203730
+Frame 3: -203730
+
+For Frame 1:
+Is the difference between the 'First Time Mark' in
+List file and 'Frame Start Time (Coinc msec)' in
+sinogram file is 30,000 (+/- 5) msec?
+[ ] Yes
+[X] No
+
+For Frame 2 and 3:
+Is the difference between the 'First Time Mark' in
+List file and 'Frame Start Time (Coinc msec)' in
+sinogram file is <= 5msec ?
+[ ] Yes
+[X] No
+
+							---- Step Acq4D.1157 Failed ----
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1158 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1a) The list file 'Time Markers' per list is:
+LIST0000 : 100001
+LIST0001 : 100001
+LIST0002 : 100001
+
+'Time Markers' for the first (bed loc) list file is at
+least 129000 but less than 131000 ?
+[ ] Yes
+[X] No
+
+'Time Markers' for the 2nd & 3rd (bed loc) list
+files is at least 99000 but less than 101000 ?
+[X] Yes
+[ ] No
+
+1b) The list file 'Phys2' per list is:
+LIST0000 : 101
+LIST0001 : 101
+LIST0002 : 101
+
+Total 'Phys2 (Respiratory) Triggers' for the first
+(bed loc) list file are > 120 but less than 135 ?
+[ ] Yes
+[X] No
+
+Total 'Phys2 (Respiratory) Triggers' for the 2nd &
+3rd (bed loc) list file are > 90 but less than 105 ?
+[X] Yes
+[ ] No
+
+2) Is the evidence of TOF info per Prompt
+inspected, including TOF values that are changing?
+[X] Yes
+[ ] No
+
+							---- Step Acq4D.1158 Failed ----
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1159 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+'Frame Duration' of each sinogram file is :
+Frame 1: 99226 msec
+Frame 2: 99226 msec
+Frame 3: 99226 msec
+
+Delta Time of each list file is :
+Frame 1:  100000 msec
+Frame 2:  100000 msec
+Frame 3:  100000 msec
+
+Difference of 'Delta Time' in list file and 'Frame
+Duration in sinogram file is :
+Frame 1: 774 ms
+Frame 2: 774 ms
+Frame 3: 774 ms
+
+Is the difference of 'Delta Time' in list file and Frame
+Duration in sinogram file for frame 1 is 30 sceonds
+(+/- 5msec)?
+[ ] Yes
+[X] No
+
+Is the 'Delta Time' in list file and 'Frame Duration' in
+sinogram file for frame 2 and frame 3 are same	(+/- 5 msec) ?
+[X] Yes
+[ ] No
+
+							---- Step Acq4D.1159 Failed ----
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1160 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1) Frame 0 Last Time Mark:
+348049 ms
+1) Frame 1 First Time Mark:
+248049 ms
+Frame 1 Last Time Mark:
+348049 ms
+Frame 2 First Time Mark:
+248049 ms
+
+2) f0_f1_gap is :
+-100000
+
+f1_f2_gap is :
+-100000
+
+Is the f0_f1_gap greater than 1 second but less than
+five seconds ?
+[ ] Yes
+[X] No
+
+Is the f2_f1_gap greater than 1 second but less than
+five seconds ?
+[ ] Yes
+[X] No
+
+							---- Step Acq4D.1160 Failed ----
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.1 Step 1162 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/petRDFS/ATSOLOLM1
+Creating coinLossCK.csv, please wait...
+
+1) Sinogram Sorter
+Coinc Loss (%)
+Frame 1: 0.0
+Frame 2: 0.0
+Frame 3: 0.0
+
+For all bed location Sinogram  Files (SINO0000,
+SINO0001 & SINO0002),  the Sorter Coinc Loss % is  < 1.0 %?
+[X] Yes
+[ ] No
+
+Creating ListLoss0-2.txt, please wait...
+
+2) List File overall aligned
+Coinc Loss (%)
+LIST000 1.BLF : 0.000098 %
+LIST000 2.BLF : 0.000098 %
+LIST000 3.BLF : 0.000098 %
+
+For all bed location List Files (LIST0000, LIST0001
+& LIST0002), the overall frame Coinc loss is < 1.0 %
+[X] Yes
+[ ] No
+
+3) List File Max 1 sec Coinc Loss
+LIST000 1.BLF : 131 %
+LIST000 2.BLF : 131 %
+LIST000 3.BLF : 131 %
+
+List File Max 1 sec Coinc Loss expressed as a
+percentage of the Prompt rate for same interval :
+LIST0000.BLF : 0.011498
+LIST0001.BLF : 0.011498
+LIST0002.BLF : 0.011498
+
+4) For all bed location List Files (LIST0000,
+LIST0001 & LIST0002), the Max List Coinc Loss at
+any one sec interval is < 50.0 % ?
+[X] Yes
+[ ] No
+
+
+5) List Loss plots, printed, labeled and included in Test Results ?
+[ ] Yes
+[ ] No
+NOTE: ListToolPlot.py Not found, perform manually."
+							---- Step Acq4D.1162 Passed ----
+
+						      ---- END of TC 2.1 Columbia DMI ----
+
+Script done on Tue 11 Aug 2020 07:31:15 PM CDT
+Script started on Wed 12 Aug 2020 08:51:09 AM CDT
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1165 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::: This Script will run all TC 2.1 press ctrl+c to stop ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Enter Sinograms path directory from section 2.2 :/petRDFS/ATSOLOLM1
+Enter LIST path directory from section 2.2 :/petLists/QOTAGJYS2
+
+Creating S2.2Sino.txt file ...
+
+Is the S2.2Sino.txt file produced ?
+[X] Yes
+[ ] No
+
+							---- Step Acq4D.1165 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1166 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Creating LiveHdrs_2.1.tell file, please wait...
+Creating ReplayHdrs_2.2.tell file, please wait...
+
+5. a) The RDF Exam/Scan Data should match for all
+the parameters other than following parameters ?
+i) Scan Description
+ii) Database Scan ID and alias examData.scanIdDicom
+iii) Scan ID (RDF pathname seed in hex) and alias examData.scanID
+[ ] Yes
+[X] No
+
+All other not identified RDF Exam Information matchs ?
+[X] Yes
+[ ] No
+
+5. b) Acq Parameters Header Matchs for all
+parameters except :
+i) Event Source
+ii) Event Simulation Data
+iii) Start Condition
+iv) Retro Scan flag
+
+and possibly the 'Table Location'
+[X] Yes
+[ ] No
+
+Acq Parameters Table Location matches within +/- 0.5mm
+[X] Yes
+[ ] No
+
+c) The RDF System Geometry Headers matches for
+all the parameters ?
+[X] Yes
+[ ] No
+
+5. d) The Detector Module Signature Data 'Serial
+Numbers' and 'Block Valid Flags' Match ?
+[X] Yes
+[ ] No
+
+6) The SSVP.1166.objE.txt file is  printed, labeled
+with 'SSVP.PAC.Acq4D.1166', initialed, dated
+and included as part of Test Results.
+[X] Yes
+[ ] No
+
+NOTE: SSVP.1166.objE.txt located at: ~/EQ_Automation/Acq_4D_ListMode_Workflow_DOC1758729/TC_2_2/Acq4D.1166
+
+						      ---- Step Acq4D.1166 Failed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1167 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+1) S2.2Sino.txt replay Time-Of-Day (hh:mm:ss) for:
+Scan Start Time:
+Wed Feb 19 16:31:13 2020
+Frame Start Time (For First Frame):
+Wed Feb 19 16:31:43 2020
+The replay Frame Start Time of the first frame is
+30 seconds after the start of the scan ?
+[X] Yes
+[ ] No
+
+2) The Frame Start Time (Coinc msec) timestamps
+for original and replay Frame for all beds
+
+Original Scan :
+Bed 1 :	 44319
+Bed 2 :	 44319
+Bed 3 :	 44319
+
+Replay Scan :
+Bed 1 :	 44319
+Bed 2 :	 44319
+Bed 3 :	 44319
+
+Is the difference between original and replay
+Frame Start Time (Coinc msec) for all other beds  is <= 5ms ?
+[X] Yes
+[ ] No
+
+3) The Frame Durations for original scan and
+replay scan for all beds ?
+
+Original Scan :
+Bed 1 : 99226
+Bed 2 : 99226
+Bed 3 : 99226
+
+Replay Scan :
+Bed 1 : 99226
+Bed 2 : 99226
+Bed 3 : 99226
+
+
+Is the difference between Frame Duration for
+original scan and replay scan is <= 5ms ?
+[X] Yes
+[ ] No
+
+
+							---- Step Acq4D.1167 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1168 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1)
+::::: Bed 1 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+::::: Bed 2 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+::::: Bed 3 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+2) ABS(Original - Replay Total Prompts) is  <= 0.05
+* (the greater of the original or the replay Prompts) :
+[X] Yes
+[ ] No
+
+3) ABS(Original - Replay Total Delays) is  <= 0.05
+* (the greater of the original or the replay Delays) :
+[X] Yes
+[ ] No
+
+
+							---- Step Acq4D.1168 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1171 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Creating coinLoss_2_1.csv, coinLoss_2_2.csv, please wait...
+
+a) Replay scan MCPS
+Bed 1 : 12.7998710016
+Bed 2 : 12.7998710016
+Bed 3 : 12.7998710016
+
+b) Replay scan %SorterCoinLoss
+Bed 1 : 0.0
+Bed 2 : 0.0
+Bed 3 : 0.0
+
+c) Replay scan %LossError
+Bed 1 : 90.0762880291
+Bed 2 : 90.0762880291
+Bed 3 : 90.0762880291
+
+d) Replay scan CPM Loss
+Bed 1 : 215306718.0
+Bed 2 : 215306718.0
+Bed 3 : 215306718.0
+
+%SorterCoinLoss for Bed1, Bed2 & Bed3 is less
+than 1.0% ?
+[X] Yes
+[ ] No
+
+f) All frames have %LossError less than 1.0 % ?
+[ ] Yes
+[X] No
+
+2) Live scan CPM Loss
+Bed 1 : 215306718.0
+Bed 2 : 215306718.0
+Bed 3 : 215306718.0
+
+%DiffCpmLoss
+Bed 1 : 0.0 %
+Bed 2 : 0.0 %
+Bed 3 : 0.0 %
+
+The %DiffCpmLoss of live scan to replay is <= 0.1% ?
+[X] Yes
+[ ] No
+
+
+						      ---- Step Acq4D.1171 Failed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1172 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1) Module and Block for Singles with Max Counts
+
+Original Scan Frame 1 :
+Module (0-33):	7  Block (0-15): 12
+Original Scan Frame 2 :
+Module (0-33):	7  Block (0-15): 12
+Original Scan Frame 3 :
+Module (0-33):	7  Block (0-15): 12
+
+Replay Scan Frame 1 :
+Module (0-33):	7  Block (0-15): 12
+Replay Scan Frame 2 :
+Module (0-33):	7  Block (0-15): 12
+Replay Scan Frame 3 :
+Module (0-33):	7  Block (0-15): 12
+
+Singles with Max Counts for each frame of
+Original & Replay occurs in the same Module and Block ?
+[X] Yes
+[ ] No
+
+Block Singles with Max Counts :
+
+Original Scan Frame 1 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 1 :
+Singles Block Max Counts: 11780201
+% Difference Frame 1 :
+0
+
+Original Scan Frame 2 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 2 :
+Singles Block Max Counts: 11780201
+% Difference Frame 2 :
+0
+
+Original Scan Frame 3 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 3 :
+Singles Block Max Counts: 11780201
+% Difference Frame 3 :
+0
+
+Is the % Difference between the Singles with Max
+Counts for each frame of Original and Replay scan <= 0.01% ?
+[X] Yes
+[ ] No
+
+2) Module and Block for Singles with Min Counts
+
+Original Scan Frame 1 :
+Module (0-33): 20  Block (0-15):  3
+Original Scan Frame 2 :
+Module (0-33): 20  Block (0-15):  3
+Original Scan Frame 3 :
+Module (0-33): 20  Block (0-15):  3
+
+Replay Scan Frame 1 :
+Module (0-33): 20  Block (0-15):  3
+Replay Scan Frame 2 :
+Module (0-33): 20  Block (0-15):  3
+Replay Scan Frame 3 :
+Module (0-33): 20  Block (0-15):  3
+
+Singles with Min Counts for each frame of
+Original & Replay occurs in the same Module and Block ?
+[X] Yes
+[ ] No
+
+Block Singles with Min Counts :
+
+Original Scan Frame 1 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 1 :
+Singles Block Min Counts:  8815094
+% Difference Frame 1 :
+0
+
+Original Scan Frame 2 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 2 :
+Singles Block Min Counts:  8815094
+% Difference Frame 2 :
+0
+
+Original Scan Frame 3 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 3 :
+Singles Block Min Counts:  8815094
+% Difference Frame 3 :
+0
+
+Is the % Difference between the Singles with Min
+Counts for each frame of Original and Replay scan <= 0.01% ?
+[X] Yes
+[ ] No
+
+3) Singles Total Counts
+^CTraceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/Acq_4D_ListMode_Workflow_DOC1758729/TC_2_2/Acq4D.1172/Acq4D_1172.py", line 209, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+
+K^C
+Script done on Wed 12 Aug 2020 08:53:17 AM CDT
+Script started on Wed 12 Aug 2020 08:51:09 AM CDT
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1165 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::: This Script will run all TC 2.1 press ctrl+c to stop ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Enter Sinograms path directory from section 2.2 :/petRDFS/ATSOLOLM1
+Enter LIST path directory from section 2.2 :/petLists/QOTAGJYS2
+
+Creating S2.2Sino.txt file ...
+
+Is the S2.2Sino.txt file produced ?
+[X] Yes
+[ ] No
+
+							---- Step Acq4D.1165 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1166 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Creating LiveHdrs_2.1.tell file, please wait...
+Creating ReplayHdrs_2.2.tell file, please wait...
+
+5. a) The RDF Exam/Scan Data should match for all
+the parameters other than following parameters ?
+i) Scan Description
+ii) Database Scan ID and alias examData.scanIdDicom
+iii) Scan ID (RDF pathname seed in hex) and alias examData.scanID
+[ ] Yes
+[X] No
+
+All other not identified RDF Exam Information matchs ?
+[X] Yes
+[ ] No
+
+5. b) Acq Parameters Header Matchs for all
+parameters except :
+i) Event Source
+ii) Event Simulation Data
+iii) Start Condition
+iv) Retro Scan flag
+
+and possibly the 'Table Location'
+[X] Yes
+[ ] No
+
+Acq Parameters Table Location matches within +/- 0.5mm
+[X] Yes
+[ ] No
+
+c) The RDF System Geometry Headers matches for
+all the parameters ?
+[X] Yes
+[ ] No
+
+5. d) The Detector Module Signature Data 'Serial
+Numbers' and 'Block Valid Flags' Match ?
+[X] Yes
+[ ] No
+
+6) The SSVP.1166.objE.txt file is  printed, labeled
+with 'SSVP.PAC.Acq4D.1166', initialed, dated
+and included as part of Test Results.
+[X] Yes
+[ ] No
+
+NOTE: SSVP.1166.objE.txt located at: ~/EQ_Automation/Acq_4D_ListMode_Workflow_DOC1758729/TC_2_2/Acq4D.1166
+
+						      ---- Step Acq4D.1166 Failed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1167 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+1) S2.2Sino.txt replay Time-Of-Day (hh:mm:ss) for:
+Scan Start Time:
+Wed Feb 19 16:31:13 2020
+Frame Start Time (For First Frame):
+Wed Feb 19 16:31:43 2020
+The replay Frame Start Time of the first frame is
+30 seconds after the start of the scan ?
+[X] Yes
+[ ] No
+
+2) The Frame Start Time (Coinc msec) timestamps
+for original and replay Frame for all beds
+
+Original Scan :
+Bed 1 :	 44319
+Bed 2 :	 44319
+Bed 3 :	 44319
+
+Replay Scan :
+Bed 1 :	 44319
+Bed 2 :	 44319
+Bed 3 :	 44319
+
+Is the difference between original and replay
+Frame Start Time (Coinc msec) for all other beds  is <= 5ms ?
+[X] Yes
+[ ] No
+
+3) The Frame Durations for original scan and
+replay scan for all beds ?
+
+Original Scan :
+Bed 1 : 99226
+Bed 2 : 99226
+Bed 3 : 99226
+
+Replay Scan :
+Bed 1 : 99226
+Bed 2 : 99226
+Bed 3 : 99226
+
+
+Is the difference between Frame Duration for
+original scan and replay scan is <= 5ms ?
+[X] Yes
+[ ] No
+
+
+							---- Step Acq4D.1167 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1168 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1)
+::::: Bed 1 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+::::: Bed 2 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+::::: Bed 3 :::::
+
+totalPrompts for original (live) scan :
+1270080000
+totalPrompts for replay (live) scan :
+1270080000
+Total Prompts Difference :
+0
+
+totalDelays for original (live) scan:
+593098610
+totalDelays for replay (live) scan:
+593098610
+Total Delays Difference:
+0
+
+Prompt Rate for Original scan :
+12799.8710016 cnts/ms
+Prompt Rate for Replay scan:
+12799.8710016 cnts/ms
+
+2) ABS(Original - Replay Total Prompts) is  <= 0.05
+* (the greater of the original or the replay Prompts) :
+[X] Yes
+[ ] No
+
+3) ABS(Original - Replay Total Delays) is  <= 0.05
+* (the greater of the original or the replay Delays) :
+[X] Yes
+[ ] No
+
+
+							---- Step Acq4D.1168 Passed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1171 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Creating coinLoss_2_1.csv, coinLoss_2_2.csv, please wait...
+
+a) Replay scan MCPS
+Bed 1 : 12.7998710016
+Bed 2 : 12.7998710016
+Bed 3 : 12.7998710016
+
+b) Replay scan %SorterCoinLoss
+Bed 1 : 0.0
+Bed 2 : 0.0
+Bed 3 : 0.0
+
+c) Replay scan %LossError
+Bed 1 : 90.0762880291
+Bed 2 : 90.0762880291
+Bed 3 : 90.0762880291
+
+d) Replay scan CPM Loss
+Bed 1 : 215306718.0
+Bed 2 : 215306718.0
+Bed 3 : 215306718.0
+
+%SorterCoinLoss for Bed1, Bed2 & Bed3 is less
+than 1.0% ?
+[X] Yes
+[ ] No
+
+f) All frames have %LossError less than 1.0 % ?
+[ ] Yes
+[X] No
+
+2) Live scan CPM Loss
+Bed 1 : 215306718.0
+Bed 2 : 215306718.0
+Bed 3 : 215306718.0
+
+%DiffCpmLoss
+Bed 1 : 0.0 %
+Bed 2 : 0.0 %
+Bed 3 : 0.0 %
+
+The %DiffCpmLoss of live scan to replay is <= 0.1% ?
+[X] Yes
+[ ] No
+
+
+						      ---- Step Acq4D.1171 Failed ----
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: Running TC_2.2 Step 1172 , Please wait... ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1) Module and Block for Singles with Max Counts
+
+Original Scan Frame 1 :
+Module (0-33):	7  Block (0-15): 12
+Original Scan Frame 2 :
+Module (0-33):	7  Block (0-15): 12
+Original Scan Frame 3 :
+Module (0-33):	7  Block (0-15): 12
+
+Replay Scan Frame 1 :
+Module (0-33):	7  Block (0-15): 12
+Replay Scan Frame 2 :
+Module (0-33):	7  Block (0-15): 12
+Replay Scan Frame 3 :
+Module (0-33):	7  Block (0-15): 12
+
+Singles with Max Counts for each frame of
+Original & Replay occurs in the same Module and Block ?
+[X] Yes
+[ ] No
+
+Block Singles with Max Counts :
+
+Original Scan Frame 1 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 1 :
+Singles Block Max Counts: 11780201
+% Difference Frame 1 :
+0
+
+Original Scan Frame 2 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 2 :
+Singles Block Max Counts: 11780201
+% Difference Frame 2 :
+0
+
+Original Scan Frame 3 :
+Singles Block Max Counts: 11780201
+Replay Scan Frame 3 :
+Singles Block Max Counts: 11780201
+% Difference Frame 3 :
+0
+
+Is the % Difference between the Singles with Max
+Counts for each frame of Original and Replay scan <= 0.01% ?
+[X] Yes
+[ ] No
+
+2) Module and Block for Singles with Min Counts
+
+Original Scan Frame 1 :
+Module (0-33): 20  Block (0-15):  3
+Original Scan Frame 2 :
+Module (0-33): 20  Block (0-15):  3
+Original Scan Frame 3 :
+Module (0-33): 20  Block (0-15):  3
+
+Replay Scan Frame 1 :
+Module (0-33): 20  Block (0-15):  3
+Replay Scan Frame 2 :
+Module (0-33): 20  Block (0-15):  3
+Replay Scan Frame 3 :
+Module (0-33): 20  Block (0-15):  3
+
+Singles with Min Counts for each frame of
+Original & Replay occurs in the same Module and Block ?
+[X] Yes
+[ ] No
+
+Block Singles with Min Counts :
+
+Original Scan Frame 1 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 1 :
+Singles Block Min Counts:  8815094
+% Difference Frame 1 :
+0
+
+Original Scan Frame 2 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 2 :
+Singles Block Min Counts:  8815094
+% Difference Frame 2 :
+0
+
+Original Scan Frame 3 :
+Singles Block Min Counts:  8815094
+Replay Scan Frame 3 :
+Singles Block Min Counts:  8815094
+% Difference Frame 3 :
+0
+
+Is the % Difference between the Singles with Min
+Counts for each frame of Original and Replay scan <= 0.01% ?
+[X] Yes
+[ ] No
+
+3) Singles Total Counts
+^CTraceback (most recent call last):
+  File "/usr/g/ctuser/EQ_Automation/Acq_4D_ListMode_Workflow_DOC1758729/TC_2_2/Acq4D.1172/Acq4D_1172.py", line 209, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+
+K^C
+Script done on Wed 12 Aug 2020 08:53:17 AM CDT
+
+
+
+
+
+
+
+
+
+Script started on Sun 30 Aug 2020 04:24:01 PM CDT
+/usr/g/ctuser/EQ_Automation/XRBB_Acq_4D_ListMode_Workflow_DOC1758729/TC_2_1/Acq4D.1154/Acq4D_1154.py: Command not found.
+
+Script done on Sun 30 Aug 2020 04:24:02 PM CDT
