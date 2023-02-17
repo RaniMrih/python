@@ -1,0 +1,59 @@
+2023-01-31 19:23:55,673 : __main__ : DEBUG : Add: 10 + 0 = 10
+2023-01-31 19:23:55,673 : __main__ : DEBUG : Sub: 10 - 0 = 10
+2023-01-31 19:23:55,673 : __main__ : DEBUG : Mul: 10 * 0 = 0
+2023-01-31 19:23:55,673 : __main__ : ERROR : tried to divide by zero
+2023-01-31 19:23:55,673 : __main__ : DEBUG : Div: 10 / 0 = None
+2023-01-31 19:25:04,421 : __main__ : DEBUG : Add: 10 + 0 = 10
+2023-01-31 19:25:04,421 : __main__ : DEBUG : Sub: 10 - 0 = 10
+2023-01-31 19:25:04,423 : __main__ : DEBUG : Mul: 10 * 0 = 0
+2023-01-31 19:25:04,423 : __main__ : ERROR : tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\rmrih\Rani_GitHub\python\Simple_Scripts_trainning\logging\log-sample.py", line 54, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
+2023-01-31 19:25:04,434 : __main__ : DEBUG : Div: 10 / 0 = None
+2023-01-31 19:30:35,605 : __main__ : DEBUG : Add: 10 + 0 = 10
+2023-01-31 19:30:35,607 : __main__ : DEBUG : Sub: 10 - 0 = 10
+2023-01-31 19:30:35,608 : __main__ : DEBUG : Mul: 10 * 0 = 0
+2023-01-31 19:30:35,609 : __main__ : ERROR : tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\rmrih\Rani_GitHub\python\Simple_Scripts_trainning\logging\log-sample.py", line 62, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
+2023-01-31 19:30:35,620 : __main__ : DEBUG : Div: 10 / 0 = None
+2023-02-15 10:50:31,319 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:51:18,207 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:51:18,208 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:51:46,751 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:51:46,752 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:51:46,752 : __main__ : ERROR : Bitcoin to btc value is: 1.0
+2023-02-15 10:55:56,183 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:55:56,184 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:55:56,185 : __main__ : ERROR : G.bcolors.RED + Bitcoin to btc value is: 1.0 + G.bcolors.ENDC 
+2023-02-15 10:56:28,591 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:56:28,592 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:56:28,592 : __main__ : ERROR : [91mBitcoin to btc value is: 1.0 [0m
+2023-02-15 10:57:55,710 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:57:55,711 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:58:30,126 : __main__ : DEBUG : Bitcoin to btc value is: 1.0
+2023-02-15 10:58:30,127 : __main__ : INFO : Bitcoin to btc value is: 1.0
+2023-02-15 10:58:30,128 : __main__ : ERROR : [91mBitcoin to btc value is: 1.0 [0m
+2023-02-16 22:36:24,740 : __main__ : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020']
+2023-02-16 22:37:16,735 : __main__ : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020', 'l-fwdev-021', 'l-fwdev-022', 'l-fwdev-023', 'l-fwdev-024', 'l-fwdev-025', 'l-fwdev-026', 'l-fwdev-027', 'l-fwdev-028', 'l-fwdev-029', 'l-fwdev-030']
+2023-02-16 22:39:04,710 : c:/Users/rmrih/Rani_GitHub/python/Simple_Scripts_trainning/Split/split_numbers.py : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020']
+2023-02-16 22:42:25,409 : c:\Users\rmrih\Rani_GitHub\python\Simple_Scripts_trainning\Split\split_numbers.py : INFO : ['l-fwreg-100', 'l-fwreg-101', 'l-fwreg-102', 'l-fwreg-103', 'l-fwreg-104', 'l-fwreg-105', 'l-fwreg-106', 'l-fwreg-107', 'l-fwreg-108', 'l-fwreg-109', 'l-fwreg-110']
+2023-02-16 22:43:29,356 : split_numbers.py : INFO : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105', 'l-fwdev-106', 'l-fwdev-107', 'l-fwdev-108', 'l-fwdev-109', 'l-fwdev-110', 'l-fwdev-111', 'l-fwdev-112', 'l-fwdev-113', 'l-fwdev-114', 'l-fwdev-115', 'l-fwdev-116', 'l-fwdev-117', 'l-fwdev-118', 'l-fwdev-119', 'l-fwdev-120', 'l-fwdev-121', 'l-fwdev-122', 'l-fwdev-123', 'l-fwdev-124', 'l-fwdev-125', 'l-fwdev-126', 'l-fwdev-127', 'l-fwdev-128', 'l-fwdev-129', 'l-fwdev-130', 'l-fwdev-131', 'l-fwdev-132', 'l-fwdev-133', 'l-fwdev-134', 'l-fwdev-135', 'l-fwdev-136', 'l-fwdev-137', 'l-fwdev-138', 'l-fwdev-139', 'l-fwdev-140', 'l-fwdev-141', 'l-fwdev-142', 'l-fwdev-143', 'l-fwdev-144', 'l-fwdev-145', 'l-fwdev-146', 'l-fwdev-147', 'l-fwdev-148', 'l-fwdev-149', 'l-fwdev-150', 'l-fwdev-151', 'l-fwdev-152', 'l-fwdev-153', 'l-fwdev-154', 'l-fwdev-155', 'l-fwdev-156', 'l-fwdev-157', 'l-fwdev-158', 'l-fwdev-159', 'l-fwdev-160', 'l-fwdev-161', 'l-fwdev-162', 'l-fwdev-163', 'l-fwdev-164', 'l-fwdev-165', 'l-fwdev-166', 'l-fwdev-167', 'l-fwdev-168', 'l-fwdev-169', 'l-fwdev-170', 'l-fwdev-171', 'l-fwdev-172', 'l-fwdev-173', 'l-fwdev-174', 'l-fwdev-175', 'l-fwdev-176', 'l-fwdev-177', 'l-fwdev-178', 'l-fwdev-179', 'l-fwdev-180', 'l-fwdev-181', 'l-fwdev-182', 'l-fwdev-183', 'l-fwdev-184', 'l-fwdev-185', 'l-fwdev-186', 'l-fwdev-187', 'l-fwdev-188', 'l-fwdev-189', 'l-fwdev-190', 'l-fwdev-191', 'l-fwdev-192', 'l-fwdev-193', 'l-fwdev-194', 'l-fwdev-195', 'l-fwdev-196', 'l-fwdev-197', 'l-fwdev-198', 'l-fwdev-199', 'l-fwdev-200']
+2023-02-16 22:43:49,155 : split_numbers.py : INFO : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103']
+2023-02-17 08:59:13,731 : split_numbers.py : INFO : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105']
+2023-02-17 09:05:24,703 : split_numbers.py : INFO : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105']
+2023-02-17 09:06:15,925 : split_numbers.py : DEBUG : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105']
+2023-02-17 09:07:08,619 : DEBUG : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105']
+2023-02-17 09:26:13,017 : split_numbers.py : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020']
+2023-02-17 09:36:44,537 : split_numbers.py : INFO : ['& C:/Python311/python.exe c:/Users/rmrih/Rani_GitHub/python/Simple_Scripts_trainning/Split/split_numbers.py']
+2023-02-17 09:39:26,954 : split_numbers.py : INFO : ['l-fwdev-100', 'l-fwdev-101', 'l-fwdev-102', 'l-fwdev-103', 'l-fwdev-104', 'l-fwdev-105', 'l-fwdev-106', 'l-fwdev-107', 'l-fwdev-108', 'l-fwdev-109']
+2023-02-17 09:40:39,163 : split_numbers.py : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015']
+2023-02-17 09:41:00,145 : split_numbers.py : INFO : ['l-fwdev-001', 'l-fwdev-002', 'l-fwdev-003', 'l-fwdev-004', 'l-fwdev-005', 'l-fwdev-006', 'l-fwdev-007', 'l-fwdev-008', 'l-fwdev-009', 'l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020', 'l-fwdev-021', 'l-fwdev-022', 'l-fwdev-023', 'l-fwdev-024', 'l-fwdev-025', 'l-fwdev-026', 'l-fwdev-027', 'l-fwdev-028', 'l-fwdev-029', 'l-fwdev-030', 'l-fwdev-031', 'l-fwdev-032', 'l-fwdev-033', 'l-fwdev-034', 'l-fwdev-035', 'l-fwdev-036', 'l-fwdev-037', 'l-fwdev-038', 'l-fwdev-039', 'l-fwdev-040', 'l-fwdev-041', 'l-fwdev-042', 'l-fwdev-043', 'l-fwdev-044', 'l-fwdev-045', 'l-fwdev-046', 'l-fwdev-047', 'l-fwdev-048', 'l-fwdev-049', 'l-fwdev-050', 'l-fwdev-051', 'l-fwdev-052', 'l-fwdev-053', 'l-fwdev-054', 'l-fwdev-055', 'l-fwdev-056', 'l-fwdev-057', 'l-fwdev-058', 'l-fwdev-059', 'l-fwdev-060', 'l-fwdev-061', 'l-fwdev-062', 'l-fwdev-063', 'l-fwdev-064', 'l-fwdev-065', 'l-fwdev-066', 'l-fwdev-067', 'l-fwdev-068', 'l-fwdev-069', 'l-fwdev-070', 'l-fwdev-071', 'l-fwdev-072', 'l-fwdev-073', 'l-fwdev-074', 'l-fwdev-075', 'l-fwdev-076', 'l-fwdev-077', 'l-fwdev-078', 'l-fwdev-079', 'l-fwdev-080', 'l-fwdev-081', 'l-fwdev-082', 'l-fwdev-083', 'l-fwdev-084', 'l-fwdev-085', 'l-fwdev-086', 'l-fwdev-087', 'l-fwdev-088', 'l-fwdev-089', 'l-fwdev-090', 'l-fwdev-091', 'l-fwdev-092', 'l-fwdev-093', 'l-fwdev-094', 'l-fwdev-095', 'l-fwdev-096', 'l-fwdev-097', 'l-fwdev-098', 'l-fwdev-099', 'l-fwdev-100']
+[94m2023-02-17 09:47:01,703 : split_numbers.py : INFO : ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020', 'l-fwdev-021', 'l-fwdev-022', 'l-fwdev-023', 'l-fwdev-024', 'l-fwdev-025', 'l-fwdev-026', 'l-fwdev-027', 'l-fwdev-028', 'l-fwdev-029', 'l-fwdev-030'][0m
+[94m2023-02-17 09:48:21,039 : split_numbers.py : INFO : [0m ['l-fwdev-010', 'l-fwdev-011', 'l-fwdev-012', 'l-fwdev-013', 'l-fwdev-014', 'l-fwdev-015', 'l-fwdev-016', 'l-fwdev-017', 'l-fwdev-018', 'l-fwdev-019', 'l-fwdev-020']
